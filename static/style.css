@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+.navbar-dark.bg-gradient {
+  background: linear-gradient(to right, #141E30, #243B55);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #141E30, #243B55);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #243B55, #141E30);
+}
+
+.video-container {
+  border: 2px solid #243B55;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 0 auto;
+}
+
+#uploaded-video {
+  width: 100%;
+  height: auto;
+}
+
+.recording-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#recording-timer {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #555;
+}
+
+.transcription-text {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.1em;
+  line-height: 1.6em;
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.transcription-status {
+  color: #555;
+  margin-top: 10px;
+}

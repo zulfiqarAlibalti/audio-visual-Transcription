@@ -1,0 +1,50 @@
+# General
+
+# Ignore the virtual environment directory
+speech_env/
+.env
+__pycache__/
+*.py[cod]
+
+# Databases
+*.db
+*.sqlite3
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables file
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Ignore the uploads directory if you don't want to push uploaded files
+uploads/
+
+# Log files
+*.log
+
+# Ignore compiled libraries
+*.so
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore pytest cache
+.pytest_cache/
+
+#ignore template and app.py file 
+/template/
+app.py

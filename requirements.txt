@@ -1,0 +1,7 @@
+Flask
+torch
+whisper
+colorama==0.4.4
+openai-whisper
+customtkinter
+colorama
